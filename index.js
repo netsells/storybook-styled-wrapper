@@ -1,4 +1,4 @@
-const styled = require('vue-styled-components');
+const styled = require('vue-styled-components').default;
 
 const withStyledWrapper = (story, { parameters }) => {
     if (!parameters.wrapperStyles) {
