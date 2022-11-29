@@ -1,12 +1,13 @@
 {
     "name": "@netsells/storybook-styled-wrapper",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "main": "index.js",
     "license": "MIT",
     "devDependencies": {
         "@netsells/eslint-config": "^5.0.0"
     },
     "dependencies": {
+        "@magister_zito/vue3-styled-components": "^2.0.0",
         "vue-styled-components": "^1.6.0"
     },
     "files": [
