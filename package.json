@@ -8,6 +8,8 @@
     },
     "dependencies": {
         "@magister_zito/vue3-styled-components": "^2.0.0",
+        "@vue/composition-api": "^1.7.1",
+        "vue-demi": "^0.13.11",
         "vue-styled-components": "^1.6.0"
     },
     "files": [

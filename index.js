@@ -1,13 +1,13 @@
-const { version } = require('vue');
+const { isVue3 } = require('vue-demi');
 
 const withStyledWrapper = (story, { parameters }) => {
+    const styled = isVue3
+        ? require('@magister_zito/vue3-styled-components').default
+        : require('vue-styled-components').default;
+
     if (!parameters.wrapperStyles) {
         return story();
     }
-
-    const styled = parseInt(version) === 3
-        ? require('@magister_zito/vue3-styled-components').default
-        : require('vue-styled-components').default;
 
     return {
         components: {
